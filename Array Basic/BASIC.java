@@ -12,16 +12,16 @@ public class BASIC {
     Scanner sc = new Scanner(System.in);
 
         student[] s = new student[10];
-        inp(){
-            int i = 0;
-            System.out.println(i);
-            String n = sc.nextLine();
-            String id = sc.nextLine();
-            int r = sc.nextInt();
-            s[i] = new student( n , id , r);
-            i++;
-
-        }
+//        inp(){
+//            int i = 0;
+//            System.out.println(i);
+//            String n = sc.nextLine();
+//            String id = sc.nextLine();
+//            int r = sc.nextInt();
+//            s[i] = new student( n , id , r);
+//            i++;
+//
+//        }
 
 
 
