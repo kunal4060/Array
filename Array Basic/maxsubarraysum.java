@@ -7,7 +7,7 @@ class maxsubarraysum{
             for ( int j = i ; j < num.length ; j++){
                 int sum = 0 ;
 
-                for( int k = i ; k < j ; k++){
+                for(  int k = i ; k < j ; k++){
                     sum = num[k] + sum ;
                     System.out.println(sum);
 
